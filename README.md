@@ -1,1 +1,2 @@
-Halo Git, ini repository pertama saya TApi boong
+ini fitur 1
+ini fitur 2

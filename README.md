@@ -1,0 +1,1 @@
+Halo Git, ini repository pertama saya

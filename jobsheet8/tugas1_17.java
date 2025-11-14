@@ -13,7 +13,7 @@ public class tugas1_17 {
             total += kuadrat;
 
             System.out.print("n = " + i + " jumlah kuadrat = ");
-            
+
             for (int j = 1; j <= i; j++) {
                 System.out.print(j * j);
                 if (j < i)
@@ -22,6 +22,7 @@ public class tugas1_17 {
 
             System.out.println(" = " + total);
         }
+        sc.close();
 
     }
 }

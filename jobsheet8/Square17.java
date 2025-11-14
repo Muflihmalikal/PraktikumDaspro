@@ -1,4 +1,3 @@
-package jobsheet8;
 
 import java.util.Scanner;
 

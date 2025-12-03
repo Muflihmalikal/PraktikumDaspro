@@ -1,10 +1,17 @@
 package Pertemuan14;
 
 public class Kafe17 {
-    public static void menu(String namaPelanggan, boolean isMember) {
+    public static void menu(String namaPelanggan, boolean isMember, String kodePromo) {
         System.out.println("Selamat Datang, " + namaPelanggan + "!");
         if (isMember) {
             System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian");
+        }
+        if (kodePromo.equalsIgnoreCase("DISKON50")) {
+            System.out.println("Anda dapatkan diskon 50%");
+        } else if (kodePromo.equalsIgnoreCase("DISKON30")) {
+            System.out.println("Anda dapatkan diskon 50%");
+        } else {
+            System.out.println("Kode Invalid");
         }
         System.out.println("===== MENU RESTO KAFE =====");
         System.out.println("1. Kopi Hitam - Rp 15,000");

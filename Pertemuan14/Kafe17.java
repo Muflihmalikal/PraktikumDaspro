@@ -33,8 +33,10 @@ public class Kafe17 {
         int diskon = 0;
         if (kodePromo.equalsIgnoreCase("DISKON50")) {
             diskon = hargaTotal * 50 / 100;
+            System.out.println("Pengurangan diskon 50% : - " + diskon);
         } else if (kodePromo.equalsIgnoreCase("DISKON30")) {
             diskon = hargaTotal * 30 / 100;
+            System.out.println("Pengurangan diskon 30% : - " + diskon);
         } else {
             System.out.println("Kode Invalid");
         }
@@ -48,7 +50,7 @@ public class Kafe17 {
         int total = 0;
         for (int i = 0; i < jmlh_pesanan; i++) {
             System.out.println("Masukkan menu ke-" + (i + 1) + ": ");
-            System.out.print("\nMasukkan nomor menu yang ingin anda pesan: ");
+            System.out.print("Masukkan nomor menu yang ingin anda pesan: ");
             int pilihanMenu = sc.nextInt();
             System.out.print("Masukkan jumlah item yang ingin dipean: ");
             int banyakItem = sc.nextInt();
